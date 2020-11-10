@@ -1,0 +1,379 @@
+$color_texto: #FFFFFF;	
+$color_fondo: rgba(38, 44, 135, 0.65);
+$color_fondo_bot: rgba(38, 44, 135, 0.55);
+$color_fondo_hover: rgba(38, 44, 135, 1);
+$color_bordes: whitesmoke;
+
+body { 
+    width: 100%;
+    height: max-content;
+    margin: auto 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: $color_texto;
+    background-image: url(https://static6.depositphotos.com/1003229/609/v/450/depositphotos_6096843-stock-illustration-circuit-board-vector-background.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#container_uno{
+    width: 90%;
+    margin: auto;
+    height: inherit;
+    min-height: 900px;
+    background-color: $color_fondo;
+}
+
+
+/*------ ZONA TOP ----- */
+#zona_top {
+    height: 15%;
+    display: flex;
+}
+
+    #top_logo {
+        width: 15%;
+        height: 100%;
+        display: flex;
+        float: left;
+        flex-direction: column;
+        img {
+            height: auto;
+            max-width:95%;
+            margin: 5px 0 0 5px;
+        }
+    }
+
+    #top_libre{
+        width: 85%;
+        height: 100%;
+        float: right;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+        #top_libre_flash {
+            width: 100%;
+            height: 85%;
+            overflow: hidden;
+            text-align: center;
+        
+            img {
+                margin-top: 2%;
+                padding: 0 0 1% 0;
+                height: 17vh;
+                max-width:auto;
+            }
+        }    
+    
+        .span_banner {
+            width: 70vw; 
+        }
+
+        @keyframes slide {
+            0%  {left: 0;}
+            10% {left: 0;}
+            20% {left: -100%;}
+            30% {left: -100%;}
+            40% {left: -200%;}
+            50% {left: -200%;}
+            60% {left: -300%;}
+            70% {left: -300%;}
+            80% {left: -400%;}
+            90% {left: -400%;}
+            100% {left: 0;}
+        }
+
+        #slider {
+            display: inline-flex;
+            position: relative;
+            animation: slide 10s infinite;
+            animation-play-state: running;
+        
+            &:hover {
+                animation-play-state: paused;
+            }
+        }         
+
+        #top_libre_nav {
+        width: 100%;
+        height: 15%;
+        border-top: 1px solid $color_bordes;
+        border-bottom: 1px solid $color_bordes;            
+    }
+
+        .lista_simple{
+            margin: 10px 0 0 0;
+
+            a:hover {
+                text-decoration: underline;
+                font-weight: bold;
+                color: inherit;
+            }
+        }
+
+        .lista_inline{
+            display: inline-block;
+            text-align: center;
+            width: 24%;
+        }
+
+        
+/*------ ZONA CENTRAL ----- */
+    #zona_mid {
+        height: 85%;
+        display: flex;
+        clear: both;
+    }
+
+    /*--  CENTRAL - IZQUIERDA --*/    
+    #main_left {
+        width: 15%;
+        height: 100%;
+        float: left;
+        display: flex;
+        flex-direction: column;
+    }
+        .menu_uno {
+            height: 35px;
+            text-align: center;
+            margin: 40px 0 10px 0 ;
+            transition: all 1s;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            &:hover {
+                transform: translate(25px,0);
+                background-color:$color_fondo_hover;
+                border-bottom: 1px solid $color_bordes;
+                border-right: 1px solid $color_bordes;
+            }
+            a:hover {
+                color:inherit;
+                text-decoration: none;
+            }
+        }
+
+            
+
+    
+    /*-----  CENTRAL - PRINCIPAL ------*/    
+    #main_right {
+        width: 85%;
+        height: 100%;
+        float: right;
+        overflow-y: hidden;
+        
+        table {
+            width: 85%;
+            margin: auto;
+            padding-top: 30px;
+        }
+
+        th{
+            padding: 20px;
+            margin: auto;
+            letter-spacing: 3px;
+        }
+    }
+
+
+        /*--  SITE INDEX --*/
+        #contenidos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .grupo_index {
+            margin: 10px;
+            width: 85%;
+            height: 25%;
+        }
+
+
+        /*-- SITE CON TABLAS -- */
+        .td_img{
+            width: 25%;
+            text-align: center;
+            
+            img{
+                height: 75px;
+                transition: all 1s; 
+
+                &:hover {
+                    transform: scale(1.75);
+                    }
+                }
+            }
+
+        .td_pc {
+            text-align: center;
+
+            img{
+                margin: auto;
+                align-content: center;
+                height: 120px;
+                transition: all 1s; 
+            
+                &:hover {
+                    transform: scale(1.75);
+                    }
+                }
+            }
+
+            .td_txt{
+            width: 75%;
+            height: 80px;
+            font-size: 90%;
+            text-align: justify;
+            border-bottom: 1px solid whitesmoke;
+            }
+
+            .td_txt_f{
+                width: 70%;
+                height: 80px;
+                font-size: 90%;
+                text-align: justify;
+            }
+
+            .td_label {
+                padding: 0 0 0 10px;
+            }
+
+
+        /* grilla site videojuegos */
+        #grilla_games {
+            display: grid;
+            width: 75%;
+            margin: auto;
+            padding-top: 10px;
+            grid-template-columns: 35% 28% 20% 15%;
+            grid-template-rows: repeat (4, 25%);
+            column-gap: 5px;
+            row-gap: 5px;
+        
+
+            .celda_cab {
+                font-weight: bold;
+                text-align: center;
+            }
+
+            .celda {
+                display: flex;
+                border-top: 1px solid whitesmoke;
+                padding-top: 0.75rem;
+            }
+
+            .celda p {
+                margin: auto;
+                text-align: center;
+            }
+        }
+
+        /*--  SITE ensamble --*/
+        .row {
+            margin: 0;
+        }
+
+
+/*------ ZONA FINAL ----- */        
+#zona_bot {
+    height: max-content;
+    position: sticky;
+    bottom: 0;
+    background-color: $color_fondo_bot;
+    overflow: hidden;
+   
+    .links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .redsocial {
+        margin: auto;
+    }
+    img {
+        height: 40px;
+        margin-right: 1rem;
+    }
+}       
+ 
+
+    /* -- RESPONSIVE MENU -- */
+    /*-----------------------*/ 
+    @media all and (max-width: 600px) {
+        body{
+            height: max-content;
+        }
+        
+        #main_left .menu_uno{
+            display: none;
+            }
+        
+        #top_logo {
+            width: 100%;
+            align-items: center;
+            .logo__link {
+                padding: 0 0 10px 0;
+                img {
+                    margin:0;
+                    height: 150px;
+                }
+            }
+        }
+        #top_libre  {
+            display: none;
+            }
+
+        
+        /****** INDEX *****/            
+        #main_right{
+            #contenidos {
+                .grupo_index{
+                    display:flex;
+                    flex-direction:column;
+                    .card-body {
+                        font-size:0.85rem;
+                    }
+                }
+            }    
+        }
+
+
+        /****** CONTACTO *****/        
+        #main_right{
+            .td_label {
+                font-size: 0.75rem;
+            }
+            input {
+                font-size: 0.75rem;
+            }
+            select {
+                font-size: 0.75rem;
+            }
+            .btn {
+                font-size: 0.75rem;
+                }
+        }
+            
+    }
+         
+
+    @media all and (max-width:850px){
+        #zona_bot span {
+            display: none;
+            }
+    }    
+    
+    @media all and (min-width: 601px) {
+        .dropdown{
+            display: none;
+            }
+        }
