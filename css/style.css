@@ -19,6 +19,7 @@ a {
   min-height: 900px;
   background-color: rgba(38, 44, 135, 0.65); }
 
+/*----- MIXIN PARA CONTAINERS COLUMNS--- */
 /*------ ZONA TOP ----- */
 #zona_top {
   height: 15%;
@@ -28,8 +29,8 @@ a {
   width: 15%;
   height: 100%;
   display: flex;
-  float: left;
-  flex-direction: column; }
+  flex-direction: column;
+  float: left; }
   #top_logo img {
     height: auto;
     max-width: 95%;
@@ -38,9 +39,9 @@ a {
 #top_libre {
   width: 85%;
   height: 100%;
-  float: right;
   display: flex;
   flex-direction: column;
+  float: right;
   align-items: center; }
 
 #top_libre_flash {
@@ -117,9 +118,9 @@ a {
 #main_left {
   width: 15%;
   height: 100%;
-  float: left;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  float: left; }
 
 .menu_uno {
   height: 35px;
@@ -241,8 +242,8 @@ a {
     height: 40px;
     margin-right: 1rem; }
 
-/* -- RESPONSIVE MENU -- */
-/*-----------------------*/
+/* ---------------- RESPONSIVE MENU ---------------- */
+/*---------------------------------------------------*/
 @media all and (max-width: 600px) {
   body {
     height: max-content; }
@@ -272,7 +273,11 @@ a {
   #main_right select {
     font-size: 0.75rem; }
   #main_right .btn {
-    font-size: 0.75rem; } }
+    font-size: 0.75rem; }
+  #main_right #sugerencia {
+    width: 150px;
+    height: 50px;
+    font-size: 0.8rem; } }
 
 @media all and (max-width: 850px) {
   #zona_bot span {

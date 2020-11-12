@@ -29,6 +29,15 @@ a {
     background-color: $color_fondo;
 }
 
+    /*----- MIXIN PARA CONTAINERS COLUMNS--- */
+    @mixin flex_columna ($ancho, $alto) {
+        width: $ancho;
+        height: $alto;
+        display: flex;
+        flex-direction: column;
+    }
+
+
 
 /*------ ZONA TOP ----- */
 #zona_top {
@@ -37,11 +46,8 @@ a {
 }
 
     #top_logo {
-        width: 15%;
-        height: 100%;
-        display: flex;
+        @include flex_columna (15%, 100%);
         float: left;
-        flex-direction: column;
         img {
             height: auto;
             max-width:95%;
@@ -50,11 +56,8 @@ a {
     }
 
     #top_libre{
-        width: 85%;
-        height: 100%;
+        @include flex_columna (85%, 100%); 
         float: right;
-        display: flex;
-        flex-direction: column;
         align-items: center;
     }
     
@@ -134,11 +137,8 @@ a {
 
     /*--  CENTRAL - IZQUIERDA --*/    
     #main_left {
-        width: 15%;
-        height: 100%;
+        @include flex_columna (15%, 100%);
         float: left;
-        display: flex;
-        flex-direction: column;
     }
         .menu_uno {
             height: 35px;
@@ -306,8 +306,8 @@ a {
 }       
  
 
-    /* -- RESPONSIVE MENU -- */
-    /*-----------------------*/ 
+    /* ---------------- RESPONSIVE MENU ---------------- */
+    /*---------------------------------------------------*/ 
     @media all and (max-width: 600px) {
         body{
             height: max-content;
@@ -361,6 +361,11 @@ a {
             .btn {
                 font-size: 0.75rem;
                 }
+            #sugerencia {
+                width: 150px;
+                height: 50px;
+                font-size: 0.8rem;
+            }    
         }
             
     }
