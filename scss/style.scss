@@ -25,7 +25,7 @@ a {
     width: 90%;
     margin: auto;
     height: inherit;
-    min-height: 900px;
+    min-height: 1000px;
     background-color: $color_fondo;
 }
 
@@ -34,7 +34,6 @@ a {
         width: $ancho;
         height: $alto;
         display: flex;
-        flex-direction: column;
     }
 
 
@@ -46,19 +45,21 @@ a {
 }
 
     #top_logo {
-        @include flex_columna (15%, 100%);
+        @include flex_columna (15%, auto);
         float: left;
+        align-items: center;
         img {
             height: auto;
-            max-width:95%;
-            margin: 5px 0 0 5px;
+            max-width: 95%;
         }
     }
 
     #top_libre{
-        @include flex_columna (85%, 100%); 
+        @include flex_columna (85%, 100%);
+        flex-direction: column; 
         float: right;
         align-items: center;
+        justify-content: center;
     }
     
         #top_libre_flash {
@@ -79,6 +80,12 @@ a {
             width: 70vw; 
         }
 
+        .carousel-inner img {
+            margin: auto;
+          }
+        
+        
+        /*
         @keyframes slide {
             0%  {left: 0;}
             10% {left: 0;}
@@ -102,7 +109,8 @@ a {
             &:hover {
                 animation-play-state: paused;
             }
-        }         
+        }
+        */         
 
         #top_libre_nav {
         width: 100%;
@@ -138,6 +146,7 @@ a {
     /*--  CENTRAL - IZQUIERDA --*/    
     #main_left {
         @include flex_columna (15%, 100%);
+        flex-direction: column;
         float: left;
     }
         .menu_uno {
@@ -199,31 +208,25 @@ a {
 
 
         /*-- SITE CON TABLAS -- */
-        .td_img{
-            width: 25%;
+        .td_team{
             text-align: center;
-            
+            padding: 15px 0 0 0;
             img{
-                height: 75px;
                 transition: all 1s; 
-
                 &:hover {
-                    transform: scale(1.75);
+                    transform: scale(1.25);
                     }
                 }
             }
 
         .td_pc {
             text-align: center;
-
             img{
                 margin: auto;
                 align-content: center;
-                height: 120px;
                 transition: all 1s; 
-            
                 &:hover {
-                    transform: scale(1.75);
+                    transform: scale(1.25);
                     }
                 }
             }
@@ -318,13 +321,15 @@ a {
             }
         
         #top_logo {
+            flex-direction: column;
             width: 100%;
             align-items: center;
             .logo__link {
                 padding: 0 0 10px 0;
                 img {
                     margin:0;
-                    height: 150px;
+                    height: 180px;
+                    width: 220px;
                 }
             }
         }
@@ -340,7 +345,7 @@ a {
                     display:flex;
                     flex-direction:column;
                     .card-body {
-                        font-size:0.85rem;
+                        font-size:0.9rem;
                     }
                 }
             }    
@@ -350,16 +355,16 @@ a {
         /****** CONTACTO *****/        
         #main_right{
             .td_label {
-                font-size: 0.75rem;
+                font-size: 0.8rem;
             }
             input {
-                font-size: 0.75rem;
+                font-size: 0.8rem;
             }
             select {
-                font-size: 0.75rem;
+                font-size: 0.8rem;
             }
             .btn {
-                font-size: 0.75rem;
+                font-size: 0.8rem;
                 }
             #sugerencia {
                 width: 150px;
@@ -367,6 +372,17 @@ a {
                 font-size: 0.8rem;
             }    
         }
+
+
+
+        /****** VIDEOJUEGOS *****/     
+        #grilla_games{
+            width: 90vw;
+            font-size: 0.8rem;
+            grid-template-columns: 25% 28% 25% 20%;
+            grid-template-rows: repeat (4, 25%);
+        }     
+       
             
     }
          

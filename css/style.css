@@ -16,7 +16,7 @@ a {
   width: 90%;
   margin: auto;
   height: inherit;
-  min-height: 900px;
+  min-height: 1000px;
   background-color: rgba(38, 44, 135, 0.65); }
 
 /*----- MIXIN PARA CONTAINERS COLUMNS--- */
@@ -27,14 +27,13 @@ a {
 
 #top_logo {
   width: 15%;
-  height: 100%;
+  height: auto;
   display: flex;
-  flex-direction: column;
-  float: left; }
+  float: left;
+  align-items: center; }
   #top_logo img {
     height: auto;
-    max-width: 95%;
-    margin: 5px 0 0 5px; }
+    max-width: 95%; }
 
 #top_libre {
   width: 85%;
@@ -42,7 +41,8 @@ a {
   display: flex;
   flex-direction: column;
   float: right;
-  align-items: center; }
+  align-items: center;
+  justify-content: center; }
 
 #top_libre_flash {
   width: 100%;
@@ -58,38 +58,35 @@ a {
 .span_banner {
   width: 70vw; }
 
-@keyframes slide {
-  0% {
-    left: 0; }
-  10% {
-    left: 0; }
-  20% {
-    left: -100%; }
-  30% {
-    left: -100%; }
-  40% {
-    left: -200%; }
-  50% {
-    left: -200%; }
-  60% {
-    left: -300%; }
-  70% {
-    left: -300%; }
-  80% {
-    left: -400%; }
-  90% {
-    left: -400%; }
-  100% {
-    left: 0; } }
+.carousel-inner img {
+  margin: auto; }
 
-#slider {
-  display: inline-flex;
-  position: relative;
-  animation: slide 10s infinite;
-  animation-play-state: running; }
-  #slider:hover {
-    animation-play-state: paused; }
+/*
+        @keyframes slide {
+            0%  {left: 0;}
+            10% {left: 0;}
+            20% {left: -100%;}
+            30% {left: -100%;}
+            40% {left: -200%;}
+            50% {left: -200%;}
+            60% {left: -300%;}
+            70% {left: -300%;}
+            80% {left: -400%;}
+            90% {left: -400%;}
+            100% {left: 0;}
+        }
 
+        #slider {
+            display: inline-flex;
+            position: relative;
+            animation: slide 10s infinite;
+            animation-play-state: running;
+        
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+        */
 #top_libre_nav {
   width: 100%;
   height: 15%;
@@ -166,24 +163,22 @@ a {
   height: 25%; }
 
 /*-- SITE CON TABLAS -- */
-.td_img {
-  width: 25%;
-  text-align: center; }
-  .td_img img {
-    height: 75px;
+.td_team {
+  text-align: center;
+  padding: 15px 0 0 0; }
+  .td_team img {
     transition: all 1s; }
-    .td_img img:hover {
-      transform: scale(1.75); }
+    .td_team img:hover {
+      transform: scale(1.25); }
 
 .td_pc {
   text-align: center; }
   .td_pc img {
     margin: auto;
     align-content: center;
-    height: 120px;
     transition: all 1s; }
     .td_pc img:hover {
-      transform: scale(1.75); }
+      transform: scale(1.25); }
 
 .td_txt {
   width: 75%;
@@ -250,13 +245,15 @@ a {
   #main_left .menu_uno {
     display: none; }
   #top_logo {
+    flex-direction: column;
     width: 100%;
     align-items: center; }
     #top_logo .logo__link {
       padding: 0 0 10px 0; }
       #top_logo .logo__link img {
         margin: 0;
-        height: 150px; }
+        height: 180px;
+        width: 220px; }
   #top_libre {
     display: none; }
   /****** INDEX *****/
@@ -264,20 +261,26 @@ a {
     display: flex;
     flex-direction: column; }
     #main_right #contenidos .grupo_index .card-body {
-      font-size: 0.85rem; }
+      font-size: 0.9rem; }
   /****** CONTACTO *****/
   #main_right .td_label {
-    font-size: 0.75rem; }
+    font-size: 0.8rem; }
   #main_right input {
-    font-size: 0.75rem; }
+    font-size: 0.8rem; }
   #main_right select {
-    font-size: 0.75rem; }
+    font-size: 0.8rem; }
   #main_right .btn {
-    font-size: 0.75rem; }
+    font-size: 0.8rem; }
   #main_right #sugerencia {
     width: 150px;
     height: 50px;
-    font-size: 0.8rem; } }
+    font-size: 0.8rem; }
+  /****** VIDEOJUEGOS *****/
+  #grilla_games {
+    width: 90vw;
+    font-size: 0.8rem;
+    grid-template-columns: 25% 28% 25% 20%;
+    grid-template-rows: repeat 4, 25%; } }
 
 @media all and (max-width: 850px) {
   #zona_bot span {
