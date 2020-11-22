@@ -48,9 +48,18 @@ a {
         @include flex_columna (15%, auto);
         float: left;
         align-items: center;
+        #msg_home {
+            
+        }
         img {
             height: auto;
-            max-width: 95%;
+            max-width: 100%;
+            &:hover #msg_home {
+                visibility: visible;
+                position: absolute;
+                margin: auto 0;
+                background-color: $color_fondo_hover;
+            }
         }
     }
 
@@ -316,10 +325,14 @@ a {
             height: max-content;
         }
         
-        #main_left .menu_uno{
+        #main_left {
+            width: 10%;            
+            .menu_uno{
             display: none;
             }
         
+        }
+
         #top_logo {
             flex-direction: column;
             width: 100%;
@@ -327,9 +340,9 @@ a {
             .logo__link {
                 padding: 0 0 10px 0;
                 img {
-                    margin:0;
-                    height: 180px;
-                    width: 220px;
+                    margin-left:40px;
+                    height: 200px;
+                    width: 250px;
                 }
             }
         }
