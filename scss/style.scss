@@ -1,7 +1,8 @@
 $color_texto: #FFFFFF;	
-$color_fondo: rgba(38, 44, 135, 0.65);
-$color_fondo_bot: rgba(38, 44, 135, 0.55);
-$color_fondo_hover: rgba(38, 44, 135, 1);
+$color_fondo: rgba(0, 0, 0, 0.5);
+$color_fondo_bot: rgba(0, 0, 0, 0.5);
+$color_fondo_hover: rgba(28, 53, 56, 1);
+$color_card:  rgba(0, 0, 0, 0.5);
 $color_bordes: whitesmoke;
 
 body { 
@@ -48,10 +49,7 @@ a {
         @include flex_columna (15%, auto);
         float: left;
         align-items: center;
-        #msg_home {
-            
-        }
-        img {
+                img {
             height: auto;
             max-width: 100%;
             &:hover #msg_home {
@@ -147,7 +145,7 @@ a {
         
 /*------ ZONA CENTRAL ----- */
     #zona_mid {
-        height: 85%;
+        height: 90%;
         display: flex;
         clear: both;
     }
@@ -199,6 +197,10 @@ a {
             margin: auto;
             letter-spacing: 3px;
         }
+
+        .card-body{
+            background-color: $color_card;
+        }
     }
 
 
@@ -219,7 +221,6 @@ a {
         /*-- SITE CON TABLAS -- */
         .td_team{
             text-align: center;
-            padding: 15px 0 0 0;
             img{
                 transition: all 1s; 
                 &:hover {
@@ -227,20 +228,14 @@ a {
                     }
                 }
             }
+        
+        .td_team_desc {
+            background-color: $color_card;
+        }
 
-        .td_pc {
-            text-align: center;
-            img{
-                margin: auto;
-                align-content: center;
-                transition: all 1s; 
-                &:hover {
-                    transform: scale(1.25);
-                    }
-                }
-            }
 
-            .td_txt{
+
+        .td_txt{
             width: 75%;
             height: 80px;
             font-size: 90%;
@@ -270,17 +265,19 @@ a {
             grid-template-rows: repeat (4, 25%);
             column-gap: 5px;
             row-gap: 5px;
-        
+            background-color: $color_card;
 
             .celda_cab {
                 font-weight: bold;
                 text-align: center;
+                
             }
 
             .celda {
                 display: flex;
                 border-top: 1px solid whitesmoke;
                 padding-top: 0.75rem;
+                
             }
 
             .celda p {
@@ -290,13 +287,35 @@ a {
         }
 
         /*--  SITE ensamble --*/
+        .td_pc {
+            text-align: center;
+            img{
+                margin: auto;
+                align-content: center;
+                transition: all 1s; 
+                &:hover {
+                    transform: scale(1.25);
+                    }
+                }
+            }
+
+
         .row {
             margin: 0;
+            .td_pc_descrip {
+                background-color: $color_card;
+            }
+            p {
+                padding: 10px;
+                margin: 0 auto;
+            }
         }
 
 
 /*------ ZONA FINAL ----- */        
 #zona_bot {
+    width: 90%;
+    margin: auto;
     height: max-content;
     position: sticky;
     bottom: 0;
@@ -323,6 +342,10 @@ a {
     @media all and (max-width: 600px) {
         body{
             height: max-content;
+        }
+
+        .container_uno {
+            min-height: 2000px;
         }
         
         #main_left {
