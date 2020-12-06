@@ -112,7 +112,7 @@ a {
 
 /*------ ZONA CENTRAL ----- */
 #zona_mid {
-  height: 90%;
+  height: 95%;
   display: flex;
   clear: both; }
 
@@ -254,6 +254,7 @@ a {
     height: 40px;
     margin-right: 1rem; }
 
+/*---------------------------------------------------*/
 /* ---------------- RESPONSIVE MENU ---------------- */
 /*---------------------------------------------------*/
 @media all and (max-width: 600px) {
