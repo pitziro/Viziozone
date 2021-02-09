@@ -2,7 +2,7 @@
   "name": "viziozone-11",
   "version": "1.0.0",
   "description": "Viziozone Site",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
