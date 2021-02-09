@@ -20,6 +20,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="https://www.logolynx.com/images/logolynx/d8/d86bb396aa6db8d26baadbc85c1a1f6b.jpeg">
 
+    <!-- Mi nuevo JS -->
+    <script src="js/js_prueba_10.js"></script>
 </head>
 
 <body>
@@ -116,30 +118,27 @@
 
             <!--  BLOQUE CENTRAL -->
             <section id="main_right" >
-              
-                <form>
-                    <table class="table-responsive" text-white>
-                        <tbody>
-                            <tr>
-                                <th class="text-center border-top-0 pt-5" colspan="2"> Regístrate </th>
-                            </tr>
+                        <p class="text-center border-top-0 pt-5" colspan="5" id="form_titulo" style="font-weight: bold; letter-spacing: 3px;"> Regístrate </p>
+                </table>
 
-                            <tr>
+                <form id="form_contacto" onsubmit=PruebaRegistar()>
+                    <table class="table-responsive" text-white >
+                        <tbody>
+                            <tr > 
                                 <td class="border-top-0">
                                     <label class="td_label" for="nombres"> Nombre </label> 
                                 </td>
-                                <td class="border-top-0">
-                                    <input type="text" name="nombres">
+                                <td class="border-top-0" id="td_label_nombre">
+                                    <input type="text" name="nombres" id="input_name" onkeypress=validaLetra()>
                                 </td>
                             </tr>
                             
-
                             <tr>
                                 <td>
                                     <label class="td_label" for="ape_pat"> Apellido Paterno </label> 
                                 </td>
-                                <td>
-                                    <input type="text" name="ape_pat">
+                                <td id="td_label_apepat">
+                                    <input type="text" name="ape_pat" id="input_apepat" onkeypress=validaLetra()>
                                 </td>
                             </tr>
 
@@ -147,8 +146,8 @@
                                 <td>
                                     <label class="td_label" for="ape_mat"> Apellido Materno </label>  
                                 </td>
-                                <td>
-                                    <input type="text" name="ape_mat">
+                                <td id="td_label_apemat">
+                                    <input type="text" name="ape_mat" id="input_apemat" onkeypress=validaLetra()>
                                 </td>
                             </tr>
 
@@ -157,8 +156,8 @@
                                 <td>
                                     <label class="td_label" for="email"> Email </label>
                                 </td>
-                                <td>
-                                    <input type="text" name="email"> 
+                                <td id="lbl_input_email">
+                                    <input type="text" name="email" id="input_email"> 
                                 </td>
                             </tr>
 
@@ -166,8 +165,8 @@
                                 <td>
                                     <label class="td_label" for="celular"> Número celular </label>
                                 </td>
-                                <td>
-                                    <input type="text" name="celular"> 
+                                <td id="lbl_input_celular">
+                                    <input type="text" name="celular" id="input_celular" onkeypress=validaNumero()> 
                                 </td>
                             </tr>
                         
@@ -176,7 +175,7 @@
                                     <label class="td_label" for="area_fav"> Área Favorita : </label>
                                 </td>
                                 <td>
-                                    <select name="area_fav">
+                                    <select name="area_fav"  id="input_areafav">
                                         <option value="none" selected disabled hidden> Seleccion una opción </option>
                                         <option value="Videojuegos"> Videojuegos </option>
                                         <option value="Consolas"> Consolas </option>
@@ -187,10 +186,10 @@
 
                             <tr>
                                 <td>
-                                    <label class="td_label" for="suscripcion"> Deseo suscribirme </label>
+                                    <label class="td_label" for="suscripcion" > Deseo suscribirme </label>
                                 </td>
                                 <td>
-                                    <input type="checkbox" value="suscrito">
+                                    <input type="checkbox" value="suscrito" id="input_suscripcion">
                                 </td>
                             </tr>
 
@@ -206,8 +205,8 @@
 
                             <tr>
                                 <td id="td_botones" style="text-align: center;" colspan="2">
-                                    <button type="reset" class="btn btn-secondary"> Reset </button>
-                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                                    <button type="reset" class="btn btn-secondary" id="btn_reset"> Reset </button>
+                                    <button type="submit button" class="btn btn-primary" >
                                         Registrame ahora
                                     </button>
                                 </td>
