@@ -15,7 +15,7 @@
     
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-     
+      
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="https://www.logolynx.com/images/logolynx/d8/d86bb396aa6db8d26baadbc85c1a1f6b.jpeg">
@@ -121,10 +121,10 @@
                 <p class="text-center border-top-0 pt-5" colspan="5" id="form_titulo" style="font-weight: bold; letter-spacing: 3px;"> Regístrate </p>
                 
                                            
-                <form id="form_contacto" onsubmit=PruebaRegistar()>
+                <form id="form_contacto">
                     <table class="table-responsive" text-white >
                         <tbody>
-                            <tr > 
+                            <tr>
                                 <td class="border-top-0">
                                     <label class="td_label" for="nombres"> Nombre </label> 
                                 </td>
@@ -133,6 +133,7 @@
                                 </td>
                             </tr>
                             
+
                             <tr>
                                 <td>
                                     <label class="td_label" for="ape_pat"> Apellido Paterno </label> 
@@ -175,7 +176,7 @@
                                     <label class="td_label" for="area_fav"> Área Favorita : </label>
                                 </td>
                                 <td>
-                                    <select name="area_fav"  id="input_areafav">
+                                    <select name="area_fav" id="input_areafav">
                                         <option value="none" selected disabled hidden> Seleccion una opción </option>
                                         <option value="Videojuegos"> Videojuegos </option>
                                         <option value="Consolas"> Consolas </option>
@@ -186,7 +187,7 @@
 
                             <tr>
                                 <td>
-                                    <label class="td_label" for="suscripcion" > Deseo suscribirme </label>
+                                    <label class="td_label" for="suscripcion"> Deseo suscribirme </label>
                                 </td>
                                 <td>
                                     <input type="checkbox" value="suscrito" id="input_suscripcion">
@@ -205,8 +206,8 @@
 
                             <tr>
                                 <td id="td_botones" style="text-align: center;" colspan="2">
-                                    <button type="reset" class="btn btn-secondary" id="btn_reset"> Reset </button>
-                                    <button type="submit button" class="btn btn-primary">
+                                    <button type="reset" class="btn btn-secondary"> Reset </button>
+                                    <button type="button" class="btn btn-primary" onclick=PruebaRegistar2()>
                                         Registrame ahora
                                     </button>
                                 </td>
@@ -229,11 +230,6 @@
                     <!-- Modal body -->
                     <div class="modal-body">
                         A partir de ahora formas parte de la comunidad y recibirás podrás recibir correos personalizados
-                    </div>
-                    
-                    <!-- Modal footer -->
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-danger" data-dismiss="modal"> Cerrar </button>
                     </div>
                     
                   </div>
@@ -281,7 +277,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
         
      <!-- SCRIPTS DE JS    
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

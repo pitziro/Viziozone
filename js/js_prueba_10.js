@@ -90,7 +90,7 @@ function validaNumero (argKey, argLabel){
 
 
 // ---------- FUNCION DE REGISTRO------------------// 
-function PruebaRegistar() {
+function PruebaRegistar2() {
 
     // ---------- variables form
     var obj_form_name       = document.getElementById('input_name');
@@ -134,13 +134,13 @@ function PruebaRegistar() {
         p_bienvenida.innerText = msj_bienvenida;
         
         // modal y redireccion
-        $('#myModal').modal();
+        $('#myModal').show();
         
         
         setTimeout(function () {
-            $('#myModal').modal('hide');
+            $('#myModal').hide();
             window.open('cotizar.html', '_self');
-        },  10000);
+        },  4000);
         
         localStorage.setItem('nombreusuario',obj_form_name.value)
         localStorage.setItem('correo',obj_form_email.value)
