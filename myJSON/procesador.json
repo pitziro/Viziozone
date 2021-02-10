@@ -1,0 +1,306 @@
+[
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN 3 3100 3.6GHZ 18MB 4CORE AM4",
+   "PrecioME": "$144,00",
+   "PrecioMN": "S/.529,92",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN 3 3200G 3.6GHZ-6.0MB | AM4",
+   "PrecioME": "$129,00",
+   "PrecioMN": "S/.474,72",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN 3 3300X 3.8GHZ-18MB | AM4",
+   "PrecioME": "$165,00",
+   "PrecioMN": "S/.607,20",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN 5 2600 3.4GHZ-19.0MB | AM4",
+   "PrecioME": "$182,00",
+   "PrecioMN": "S/.669,76",
+   "Almacen": "CONSULTAR STOCK"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN 5 3400G 3.7GHZ AM4",
+   "PrecioME": "$189,00",
+   "PrecioMN": "S/.695,52",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN 5 2600X 3.6GHZ-19.0MB | AM4",
+   "PrecioME": "$193,00",
+   "PrecioMN": "S/.710,24",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN 5 3500X 3.6GHZ-35MB AM4 (BOOST CLOCK TO 4.1GHZ)",
+   "PrecioME": "$199,00",
+   "PrecioMN": "S/.732,32",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN 5 3600 3.6GHZ 35MB 6CORE AM4",
+   "PrecioME": "$259,00",
+   "PrecioMN": "S/.953,12",
+   "Almacen": "NUEVO INGRESO"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN 5 3600X 3.8GHZ 32MB 6CORE AM4",
+   "PrecioME": "$299,00",
+   "PrecioMN": "S/.1.100,32",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN 5 5600X / 3.7GHZ UP TO 4.6GHZ / AM4",
+   "PrecioME": "$389,00",
+   "PrecioMN": "S/.1.431,52",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN 7 3700X 3.6GHZ-36.0MB | AM4",
+   "PrecioME": "$419,00",
+   "PrecioMN": "S/.1.541,92",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN 7 3800X 3.9GHZ-36.0MB | AM4",
+   "PrecioME": "$479,00",
+   "PrecioMN": "S/.1.762,72",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN 7 3800XT / 3.9GHZ UP TO 4.7GHZ / AM4",
+   "PrecioME": "$499,00",
+   "PrecioMN": "S/.1.836,32",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN 7 5800X / 3.8GHZ UP TO 4.7GHZ / AM4",
+   "PrecioME": "$589,00",
+   "PrecioMN": "S/.2.167,52",
+   "Almacen": "NUEVO INGRESO"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN 9 3900X 3.8GHZ-70.0MB | AM4",
+   "PrecioME": "$629,00",
+   "PrecioMN": "S/.2.314,72",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN 9 5900X 3.7GHZ 70MB 12CORE AM4",
+   "PrecioME": "$699,00",
+   "PrecioMN": "S/.2.572,32",
+   "Almacen": "CONSULTAR STOCK"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN 9 3950X / 3.5GHZ UP TO 4.7GHZ / AM4",
+   "PrecioME": "$989,00",
+   "PrecioMN": "S/.3.639,52",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN 9 5950X / 3.4GHZ UP TO 4.9GHZ / AM4",
+   "PrecioME": "$1.049,00",
+   "PrecioMN": "S/.3.860,32",
+   "Almacen": "CONSULTAR STOCK"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN THREADRIPPER 3960X / 3.8GHZ UP TO 4.5GHZ / TRX4",
+   "PrecioME": "$1.799,00",
+   "PrecioMN": "S/.6.620,32",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "AMD",
+   "Modelo": "AMD RYZEN THREADRIPPER 3970X / 3.7GHZ UP TO 4.5GHZ / TRX4",
+   "PrecioME": "$2.599,00",
+   "PrecioMN": "S/.9.564,32",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "INTEL",
+   "Modelo": "INTEL CORE I3 9100F 3.6GHZ-6.0MB | LGA 1151",
+   "PrecioME": "$98,00",
+   "PrecioMN": "S/.360,64",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "INTEL",
+   "Modelo": "INTEL PENTIUM GOLD G5400, 3.70 GHZ LGA1151",
+   "PrecioME": "$99,00",
+   "PrecioMN": "S/.364,32",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "INTEL",
+   "Modelo": "INTEL CORE I3 10100F 3.6GHZ/6MB LGA1200",
+   "PrecioME": "$109,00",
+   "PrecioMN": "S/.401,12",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "INTEL",
+   "Modelo": "INTEL CORE I3 10100 / 3.6 GHZ UP TO 4.3 GHZ / 1200 /",
+   "PrecioME": "$159,00",
+   "PrecioMN": "S/.585,12",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "INTEL",
+   "Modelo": "INTEL CORE I5 9400F 9.0MB-4.10GHZ- | LGA 1151",
+   "PrecioME": "$189,00",
+   "PrecioMN": "S/.695,52",
+   "Almacen": "NUEVO INGRESO"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "INTEL",
+   "Modelo": "INTEL CORE I5 10400F 2.90GHZ US",
+   "PrecioME": "$198,00",
+   "PrecioMN": "S/.728,64",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "INTEL",
+   "Modelo": "INTEL CORE I5 10400 2.9GHZ-12MB | LGA 1200",
+   "PrecioME": "$239,00",
+   "PrecioMN": "S/.879,52",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "INTEL",
+   "Modelo": "INTEL CORE I5 9600K 3.7GHZ-9.0MB | LGA 1151 | S/ COOLER",
+   "PrecioME": "$299,00",
+   "PrecioMN": "S/.1.100,32",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "INTEL",
+   "Modelo": "INTEL CORE I5 10600K 4.1GHZ-12MB LGA 1200",
+   "PrecioME": "$369,00",
+   "PrecioMN": "S/.1.357,92",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "INTEL",
+   "Modelo": "INTEL CORE I7 9700 3.0GHZ-12.0MB | LGA 1151 S / COOLER OEM",
+   "PrecioME": "$438,00",
+   "PrecioMN": "S/.1.611,84",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "INTEL",
+   "Modelo": "INTEL CORE I7 10700 2.9GHZ-16MB LGA 1200",
+   "PrecioME": "$439,00",
+   "PrecioMN": "S/.1.615,52",
+   "Almacen": "NUEVO INGRESO"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "INTEL",
+   "Modelo": "INTEL CORE I7 9700K 3.6GHZ-12.0MB | LGA 1151 | S/ COOLE",
+   "PrecioME": "$479,00",
+   "PrecioMN": "S/.1.762,72",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "INTEL",
+   "Modelo": "INTEL CORE I7 10700F 2.90GHZ US",
+   "PrecioME": "$480,00",
+   "PrecioMN": "S/.1.766,40",
+   "Almacen": "NUEVO INGRESO"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "INTEL",
+   "Modelo": "INTEL CORE I7 10700K 3.80GHZ US",
+   "PrecioME": "$499,00",
+   "PrecioMN": "S/.1.836,32",
+   "Almacen": "CONSULTAR STOCK"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "INTEL",
+   "Modelo": "INTEL CORE I9 9900KF 3.6GHz/16MB LGA 1151",
+   "PrecioME": "$499,00",
+   "PrecioMN": "S/.1.836,32",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "INTEL",
+   "Modelo": "INTEL CORE I9 10850K 3.60GHZ 20MB | LGA 1200",
+   "PrecioME": "$589,00",
+   "PrecioMN": "S/.2.167,52",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "INTEL",
+   "Modelo": "INTEL CORE I9 10900KF 3.7 GHZ UP TO 5.3 GHZ | 1200",
+   "PrecioME": "$643,00",
+   "PrecioMN": "S/.2.366,24",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "PROCESADOR",
+   "Raza": "INTEL",
+   "Modelo": "INTEL CORE I9 10900K 3.7 GHZ UP TO 5.3 GHZ | LGA 1200",
+   "PrecioME": "$689,00",
+   "PrecioMN": "S/.2.535,52",
+   "Almacen": "DISPONIBLE"
+ }
+]

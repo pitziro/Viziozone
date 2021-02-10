@@ -129,19 +129,21 @@ function PruebaRegistar() {
         let msj_bienvenida = 'Bienvenido '+ (obj_form_name.value).toUpperCase()+' !! ';
         let p_bienvenida = document.getElementById('form_titulo');
 
-        document.getElementById("form_contacto").reset();
         document.getElementById('form_contacto').style.display = 'none';
-        p_bienvenida.innerText = msj_bienvenida;
         p_bienvenida.style.fontSize = '200%';
+        p_bienvenida.innerText = msj_bienvenida;
         
         // modal y redireccion
-        $("#myModal").modal();
-        setTimeout(function () {
-            $("#myModal").modal('hide');
-            window.open('index.html', '_self');
-        }, 6000);
-
+        $('#myModal').modal();
         
+        
+        setTimeout(function () {
+            $('#myModal').modal('hide');
+            window.open('cotizar.html', '_self');
+        },  10000);
+        
+        localStorage.setItem('nombreusuario',obj_form_name.value)
+        localStorage.setItem('correo',obj_form_email.value)
 
     }
     else {
@@ -165,8 +167,9 @@ function PruebaRegistar() {
             var contenedor = document.getElementById('lbl_input_email');
             contenedor.appendChild(msj_error);  
         }
-
+        
         this.event.preventDefault();
+        
     }
 
 }
