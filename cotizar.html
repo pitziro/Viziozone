@@ -14,7 +14,7 @@
     <title> Extreme Gaming </title>
     
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -129,17 +129,76 @@
                 <div id="divcotizar">
                    <table class="table-responsive" text-white> 
                         <tbody id="tablecotizar">
-                            <tr id="tdproce">
-                                <td> Procesador: </td>
+                            <tr id="tdproce" style="height:50px">
+                                <td > Procesador : </td>
                                 <td> 
                                     <select id="selectproce">
                                         <option value="none" selected disabled hidden> Seleccion una opción </option>
                                     </select>
                                 </td>
                             </tr>
+                            
+                            <tr id="tdMobo" style="height:50px">
+                                <td> Motherboard : </td>
+                                <td> 
+                                    <select id="selectMobo" >
+                                        <option value="none" selected disabled hidden> Seleccion una opción </option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr id="tdRam" style="height:50px">
+                                <td> Memoria RAM : </td>
+                                <td> 
+                                    <select id="selectRam" >
+                                        <option value="none" selected disabled hidden> Seleccion una opción </option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr id="tdGpu" style="height:50px">
+                                <td> Tarjeta Gráfica : </td>
+                                <td> 
+                                    <select id="selectGpu" >
+                                        <option value="none" selected disabled hidden> Seleccion una opción </option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td id="td_botones" style="text-align: center;" colspan="2">
+                                    <button type="button" class="btn btn-info" onclick=RegistroCot()>
+                                        Solicitar Cotizacion 
+                                    </button>
+                                </td>
+                            </tr>
+
                         </tbody>
                    </table>
                 </div>
+
+                 <!-- Modal -->
+                <div class="modal text-dark" id="myModalCot">
+                    <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                    
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                        <h4 class="modal-title"> Gracias! </h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            En breve un asesor se comunicará contigo.
+                        </div>
+                        
+                    </div>
+                    </div>
+                </div>
+
+
+
             </section>
        
         </main> 
@@ -177,11 +236,11 @@
     <!-- Mi nuevo JS -->
     <script src="js/js_prueba_10b.js"></script>
     
-    <!-- SCRIPTS DE JS -->        
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-
+    <!-- SCRIPTS DE JS -->  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
          
      <!-- SCRIPTS DE JS
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
