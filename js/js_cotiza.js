@@ -36,6 +36,7 @@ if (document.body.contains(document.getElementById('limpiar_storage'))) {
 // carga del JSON Procesadores 
 // ----------------------------------------------------------------------------
 var procesadores
+var preciocpu
 
 $('#selectproce').ready(function () {
     $.ajax({
@@ -64,13 +65,16 @@ $('#selectproce').change(function() {
         return item.Modelo === valorActual
     })
 
+    $('#selectproce').css('color','black')
     $('#precioCPU').text(procesadores[index].PrecioMN)
+    preciocpu = Number((procesadores[index].PrecioMN).toString().replace(/[^0-9,-]+/g,"").replace(",","."))
 });
 
 
 // carga del JSON MoBo 
 // ----------------------------------------------------------------------------
 var mobos
+var preciomobo
 
 $('#selectMobo').ready(function () {
     $.ajax({
@@ -99,13 +103,16 @@ $('#selectMobo').change(function() {
         return item.Modelo === valorActual
     })
 
-    $('#selectMobo').text(mobos[index].PrecioMN)
+    $('#selectMobo').css('color','black')
+    $('#precioMobo').text(mobos[index].PrecioMN)
+    preciomobo = Number((mobos[index].PrecioMN).toString().replace(/[^0-9,-]+/g,"").replace(",","."))
 });
 
 
 // carga del JSON RAM 
 // ----------------------------------------------------------------------------
 var rams
+var precioram
 
 $('#selectRam').ready(function () {
     $.ajax({
@@ -134,7 +141,9 @@ $('#selectRam').change(function() {
         return item.Modelo === valorActual
     })
 
-    $('#selectRam').text(rams[index].PrecioMN)
+    $('#selectRam').css('color','black')
+    $('#precioRam').text(rams[index].PrecioMN)
+    precioram = Number((rams[index].PrecioMN).toString().replace(/[^0-9,-]+/g,"").replace(",","."))
 });
 
 
@@ -142,6 +151,7 @@ $('#selectRam').change(function() {
 // carga del JSON GPU
 // ----------------------------------------------------------------------------
 var graficas
+var preciogpu
 
 $('#selectGpu').ready(function () {
     $.ajax({
@@ -170,7 +180,9 @@ $('#selectGpu').change(function() {
         return item.Modelo === valorActual
     })
 
-    $('#selectGpu').text(graficas[index].PrecioMN)
+    $('#selectGpu').css('color','black')
+    $('#precioGpu').text(graficas[index].PrecioMN)
+    preciogpu = Number((graficas[index].PrecioMN).toString().replace(/[^0-9,-]+/g,"").replace(",","."))
 });
 
 
@@ -179,24 +191,40 @@ $('#selectGpu').change(function() {
 // Guardo el JSON con los datos
 function RegistroCot() {
     
-    let data = '{"Proce": null, "Mobo": null, "Ram": null, "Gpu": null}';
-    var cotJson = JSON.parse (data);
-    
-    cotJson.Proce = $('#selectproce').find(":selected").text();
-    cotJson.Mobo = $('#selectMobo').find(":selected").text();
-    cotJson.Gpu = $('#selectGpu').find(":selected").text();
-    cotJson.Ram = $('#selectRam').find(":selected").text();
+    let costo_total = preciogpu + preciocpu + precioram + preciomobo
 
-    localStorage.setItem('miCotizacion',JSON.stringify(cotJson));
+    if ( isNaN(costo_total) ) {
+        if ( isNaN(preciogpu) ) { $('#selectGpu').css('color','red') } 
+        if ( isNaN(preciocpu) ) { $('#selectproce').css('color','red') } 
+        if ( isNaN(precioram) ) { $('#selectRam').css('color','red') } 
+        if ( isNaN(preciomobo) ) { $('#selectMobo').css('color','red') } 
+    }
+    else
+    {
+        let data = '{"Proce": null, "Mobo": null, "Ram": null, "Gpu": null}';
+        var cotJson = JSON.parse (data);
+        
+        cotJson.Proce = $('#selectproce').find(":selected").text();
+        cotJson.Mobo = $('#selectMobo').find(":selected").text();
+        cotJson.Gpu = $('#selectGpu').find(":selected").text();
+        cotJson.Ram = $('#selectRam').find(":selected").text();
     
-    console.log('Termine coti')
+        localStorage.setItem('miCotizacion',JSON.stringify(cotJson));
+    
+        $('#ul_coti').append('<li>'+JSON.stringify(cotJson.Proce)+'</li>')
+        $('#ul_coti').append('<li>'+JSON.stringify(cotJson.Mobo)+'</li>')
+        $('#ul_coti').append('<li>'+JSON.stringify(cotJson.Gpu)+'</li>')
+        $('#ul_coti').append('<li>'+JSON.stringify(cotJson.Ram)+'</li>')
 
-    // modal y redireccion
-    $('#myModalCot').show();
-    
-    setTimeout(function () {
-        $('#myModalCot').hide();
-        window.open('cotizar.html', '_self');
-    },  3000);
+        $('#total_coti').text('El valor total asciende a: S/ '+ costo_total.toFixed(2) + '(aprox.)')
+
+        // modal y redireccion
+        $('#myModalCot').show();
+
+        setTimeout(function () {
+            $('#myModalCot').hide();
+            window.open('cotizar.html', '_self');
+        },  6500);
+    }
     
 }

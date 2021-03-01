@@ -234,7 +234,6 @@ a {
         }
 
 
-
         .td_txt{
             width: 75%;
             height: 80px;
@@ -310,6 +309,28 @@ a {
                 margin: 0 auto;
             }
         }
+
+
+        /*--  SITE COTIZA --*/
+        .row_cot {
+            height: 50px;
+            
+            .col_cot_lbl {
+                width: 15%;
+            } 
+
+            .col_cot_sel {
+                width: 90%;
+            }
+
+            .col_cot_price {
+                width: 105%;
+                text-align: center;
+            }
+        
+        }
+
+
 
 
 /*------ ZONA FINAL ----- */        

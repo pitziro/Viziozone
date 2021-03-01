@@ -236,6 +236,17 @@ a {
     padding: 10px;
     margin: 0 auto; }
 
+/*--  SITE COTIZA --*/
+.row_cot {
+  height: 50px; }
+  .row_cot .col_cot_lbl {
+    width: 15%; }
+  .row_cot .col_cot_sel {
+    width: 90%; }
+  .row_cot .col_cot_price {
+    width: 105%;
+    text-align: center; }
+
 /*------ ZONA FINAL ----- */
 #zona_bot {
   width: 90%;

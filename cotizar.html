@@ -129,40 +129,41 @@
                 <div id="divcotizar">
                    <table class="table-responsive" text-white> 
                         <tbody id="tablecotizar">
-                            <tr id="tdproce" style="height:50px">
-                                <td id="td_procesador1"> Procesador : </td>
+
+                            <tr id="tdproce" class="row_cot">
+                                <td class="col_cot_lbl"> Procesador : </td>
                                 <td> 
-                                    <select id="selectproce">
+                                    <select id="selectproce" class="col_cot_sel">
                                         <option value="none" selected disabled hidden> Seleccion una opción </option>
                                     </select>
                                 </td>
-                                <td id="precioCPU"> </td>
+                                <td id="precioCPU" > </td>
                             </tr>
                             
-                            <tr id="tdMobo" style="height:50px">
-                                <td> Motherboard : </td>
+                            <tr id="tdMobo" class="row_cot">
+                                <td class="col_cot_lbl"> Motherboard : </td>
                                 <td> 
-                                    <select id="selectMobo" >
+                                    <select id="selectMobo" class="col_cot_sel">
                                         <option value="none" selected disabled hidden> Seleccion una opción </option>
                                     </select>
                                 </td>
                                 <td id="precioMobo"> </td>
                             </tr>
 
-                            <tr id="tdRam" style="height:50px">
-                                <td> Memoria RAM : </td>
+                            <tr id="tdRam" class="row_cot">
+                                <td class="col_cot_lbl"> Memoria RAM : </td>
                                 <td> 
-                                    <select id="selectRam" >
+                                    <select id="selectRam" class="col_cot_sel">
                                         <option value="none" selected disabled hidden> Seleccion una opción </option>
                                     </select>
                                 </td>
                                 <td id="precioRam"> </td>
                             </tr>
 
-                            <tr id="tdGpu" style="height:50px">
-                                <td> Tarjeta Gráfica : </td>
+                            <tr id="tdGpu" class="row_cot">
+                                <td class="col_cot_lbl"> Tarjeta Gráfica : </td>
                                 <td> 
-                                    <select id="selectGpu" >
+                                    <select id="selectGpu" class="col_cot_sel">
                                         <option value="none" selected disabled hidden> Seleccion una opción </option>
                                     </select>
                                 </td>
@@ -188,15 +189,21 @@
                     
                         <!-- Modal Header -->
                         <div class="modal-header">
-                        <h4 class="modal-title"> Gracias! </h4>
+                        <h4 class="modal-title"> Gracias por confiar en nosotros! </h4>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         </div>
                         
                         <!-- Modal body -->
                         <div class="modal-body">
-                            En breve un asesor se comunicará contigo.
+                            <ul id="ul_coti"> 
+                                <p> Tu Configuración es la siguiente: <br>  </p>
+                            </ul>
+
+                            <br>  
+                            <p id="total_coti">  </p>
+                            <p > En breve un asesor se comunicará contigo .</p>
                         </div>
-                        
+
                     </div>
                     </div>
                 </div>
