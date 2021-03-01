@@ -1,0 +1,258 @@
+[
+ {
+   "Categoria": "RAM",
+   "Raza": "TEAMGROUP",
+   "Modelo": "T-FORCE VULCAN Z 4GB, DDR4 3000MHZ GRAY",
+   "PrecioME": "$31,00",
+   "PrecioMN": "S/.114,08",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "KINGSTON",
+   "Modelo": "HYPERX FURY DDR4 4GB/2666 NEGRO",
+   "PrecioME": "$33,00",
+   "PrecioMN": "S/.121,44",
+   "Almacen": "CONSULTAR STOCK"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "HP",
+   "Modelo": "MEMORIA RAM HP V6 SERIES 8GB DDR4 2666MHZ",
+   "PrecioME": "$43,00",
+   "PrecioMN": "S/.158,24",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "HYPERX",
+   "Modelo": "HYPERX FURY DDR4 8GB/2666 NEGRO",
+   "PrecioME": "$43,00",
+   "PrecioMN": "S/.158,24",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "TEAMGROUP",
+   "Modelo": "Memoria T-Force Vulcan Z, 8GB, DDR4, 2666 MHz, CL-16",
+   "PrecioME": "$45,00",
+   "PrecioMN": "S/.165,60",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "GEIL",
+   "Modelo": "MEMORIA RAM GEIL ORION, 8GB, DDR4, 3000 MHZ",
+   "PrecioME": "$46,50",
+   "PrecioMN": "S/.171,12",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "GEIL",
+   "Modelo": "MEMORIA RAM GEIL ORION, 8GB, DDR4, 3200 MHZ",
+   "PrecioME": "$48,00",
+   "PrecioMN": "S/.176,64",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "GEIL",
+   "Modelo": "MEMORIA RAM GEIL EVO POTENZA 8GB 3200MHZ",
+   "PrecioME": "$48,00",
+   "PrecioMN": "S/.176,64",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "TEAMGROUP",
+   "Modelo": "Memoria T-Force Vulcan Z, 8GB, DDR4, 3200 MHz, CL-16",
+   "PrecioME": "$49,00",
+   "PrecioMN": "S/.180,32",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "TEAMGROUP",
+   "Modelo": "MEMORIA SODIMM T-FORCE VULCAN 8GB 3200MHZ DDR4 | RED",
+   "PrecioME": "$49,00",
+   "PrecioMN": "S/.180,32",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "KINGSTON",
+   "Modelo": "MEMORIA DDR4 KINGSTON 8GB 3200MHZ BLACK CL16",
+   "PrecioME": "$49,00",
+   "PrecioMN": "S/.180,32",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "HP",
+   "Modelo": "MEMORIA HP V8SERIES 8GB 3200",
+   "PrecioME": "$49,00",
+   "PrecioMN": "S/.180,32",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "HYPERX",
+   "Modelo": "MEM 8G HYPERX 3200GHZ DDR4",
+   "PrecioME": "$53,50",
+   "PrecioMN": "S/.196,88",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "TEAMGROUP",
+   "Modelo": "MEM. RAM TEAMGROUP T-FORCE DELTA DDR4 8GB/3200 NEGRO LED- RGB",
+   "PrecioME": "$58,00",
+   "PrecioMN": "S/.213,44",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "GEIL",
+   "Modelo": "MEMORIA RAM GEIL SUPER LUCE RGB 8GB DDR4 3200MHZ",
+   "PrecioME": "$58,00",
+   "PrecioMN": "S/.213,44",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "HYPERX",
+   "Modelo": "MEM. RAM HYPERX PREDATOR RGB 8GB DDR4 3200 MHZ",
+   "PrecioME": "$58,00",
+   "PrecioMN": "S/.213,44",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "TEAMGROUP",
+   "Modelo": "RAM T-FORCE VULCAN Z 16GB, DDR4 3200MHZ",
+   "PrecioME": "$79,00",
+   "PrecioMN": "S/.290,72",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "HYPERX",
+   "Modelo": "MEMORIA RAM KINGSTON HYPERX FURY 16GB DDR4 2666MHZ",
+   "PrecioME": "$86,00",
+   "PrecioMN": "S/.316,48",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "TEAMGROUP",
+   "Modelo": "RAM DDR4 T-FORCE DELTA RGB 16GB 3200MHZ BLACK",
+   "PrecioME": "$89,00",
+   "PrecioMN": "S/.327,52",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "CORSAIR",
+   "Modelo": "MEMORIA CORSAIR DDR4 16GB 3200MHZ VENGEANCE LPX",
+   "PrecioME": "$89,00",
+   "PrecioMN": "S/.327,52",
+   "Almacen": "CONSULTAR STOCK"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "HYPERX",
+   "Modelo": "RAM KINGSTON HYPERX FURY 16GB DDR4 3200MHZ",
+   "PrecioME": "$95,00",
+   "PrecioMN": "S/.349,60",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "TEAMGROUP",
+   "Modelo": "MEMORIA T-FORCE VULCAN Z, 16GB, DDR4, 2666 MHZ",
+   "PrecioME": "$95,00",
+   "PrecioMN": "S/.349,60",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "TEAMGROUP",
+   "Modelo": "MEMORIA T-FORCE DELTA RGB, 16GB, DDR4, 3000 MHZ, CL-16, 1.35V",
+   "PrecioME": "$99,00",
+   "PrecioMN": "S/.364,32",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "TEAMGROUP",
+   "Modelo": "RAM DDR4 T-FORCE DELTA RGB 2X8GB 3200MHZ BLACK",
+   "PrecioME": "$119,00",
+   "PrecioMN": "S/.437,92",
+   "Almacen": "NUEVO INGRESO"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "TEAMGROUP",
+   "Modelo": "RAM 16 GB (2*8)T-FORCE XCALIBUR RGB DDR4 3600MHZ",
+   "PrecioME": "$119,00",
+   "PrecioMN": "S/.437,92",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "TEAMGROUP",
+   "Modelo": "RAM DDR4 T-FORCE NIGHT HAWK RGB 16GB 3600MHZ",
+   "PrecioME": "$119,00",
+   "PrecioMN": "S/.437,92",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "TEAMGROUP",
+   "Modelo": "RAM DDR4 T-FORCE DELTA RGB 2X8GB 3200MHZ WHITE",
+   "PrecioME": "$125,00",
+   "PrecioMN": "S/.460,00",
+   "Almacen": "NUEVO INGRESO"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "TEAMGROUP",
+   "Modelo": "RAM DDR4 T-FORCE DARK Z 32GB 3200MHZ RED",
+   "PrecioME": "$139,00",
+   "PrecioMN": "S/.511,52",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "HYPERX",
+   "Modelo": "MEMORIA 8GB DDR4 HYPERX PREDATOR BLACK RGB BUS 3600MHZ",
+   "PrecioME": "$69,00",
+   "PrecioMN": "S/.253,92",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "TEAMGROUP",
+   "Modelo": "MEMORIA 32GB DDR4 T-FORCE DELTA RGB 3200MHZ",
+   "PrecioME": "$169,00",
+   "PrecioMN": "S/.621,92",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "KINGSTON",
+   "Modelo": "Memoria Kingston HyperX Fury 16GB DDR4, 3200 MHz",
+   "PrecioME": "$99,00",
+   "PrecioMN": "S/.364,32",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "RAM",
+   "Raza": "TEAMGROUP",
+   "Modelo": "MEM. RAM TEAM GROUP T-FORCE XTREEM ARGB, 16GB KIT (8GB x2) DDR4 3600 MHZ",
+   "PrecioME": "$189,00",
+   "PrecioMN": "S/.695,52",
+   "Almacen": "DISPONIBLE"
+ }
+]

@@ -1,0 +1,490 @@
+[
+ {
+   "Categoria": "Nvidia",
+   "Raza": "MSI",
+   "Modelo": "MSI GEFORCE GT 710 2GB DDR3 64BITS",
+   "PrecioME": "$59,00",
+   "PrecioMN": "S/.217,12",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "ZOTAC",
+   "Modelo": "GALAX GEFORCE GT 1030 2GB GDDR5 64BITS",
+   "PrecioME": "$97,85",
+   "PrecioMN": "S/.360,09",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "GIGABYTE",
+   "Modelo": "GIGABYTE GT 1030 2GB GDR5",
+   "PrecioME": "$99,00",
+   "PrecioMN": "S/.364,32",
+   "Almacen": "CONSULTAR STOCK"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "PNY",
+   "Modelo": "PNY NVIDIA GEFORCE GTX 1650 DUAL FAN 4GB",
+   "PrecioME": "$186,00",
+   "PrecioMN": "S/.684,48",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "GALAX",
+   "Modelo": "GALAX GEFORCE GTX 1650 EX PLUS (1-CLICK OC)",
+   "PrecioME": "$189,00",
+   "PrecioMN": "S/.695,52",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "ASUS",
+   "Modelo": "ASUS GEFORCE GTX 1650 DUAL 4GB",
+   "PrecioME": "$209,00",
+   "PrecioMN": "S/.769,12",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "ASUS",
+   "Modelo": "EVGA GEFORCE GTX 1650 SUPER 4GB SC ULTRA GAMING",
+   "PrecioME": "$227,00",
+   "PrecioMN": "S/.835,36",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "ASUS",
+   "Modelo": "ASUS GEFORCE NVIDIA TUF GAMING GTX 1650 OC 4GB GDDR6",
+   "PrecioME": "$228,00",
+   "PrecioMN": "S/.839,04",
+   "Almacen": "CONSULTAR STOCK"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "ZOTAC",
+   "Modelo": "MSI NVIDIA GTX 1650 D6 GAMING X 4GB GDDR6",
+   "PrecioME": "$228,00",
+   "PrecioMN": "S/.839,04",
+   "Almacen": "CONSULTAR STOCK"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "MSI",
+   "Modelo": "MSI NVIDIA GTX 1650 SUPER GAMING X 4GB GDDR6",
+   "PrecioME": "$229,00",
+   "PrecioMN": "S/.842,72",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "ZOTAC",
+   "Modelo": "ZOTAC GAMING GEFORCE GTX 1650 SUPER 4GB",
+   "PrecioME": "$229,00",
+   "PrecioMN": "S/.842,72",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "ASUS",
+   "Modelo": "ASUS TUF GEFORCE GTX 1650 SUPER OC 4GB GDDR6",
+   "PrecioME": "$229,00",
+   "PrecioMN": "S/.842,72",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "EVGA",
+   "Modelo": "EVGA NVIDIA GTX 1650 SC ULTRA GAMING 4GB GDDR6",
+   "PrecioME": "$249,00",
+   "PrecioMN": "S/.916,32",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "PNY",
+   "Modelo": "PNY GEFORCE GTX 1660 SUPER 6GB GDDR6 XLR8 OC",
+   "PrecioME": "$329,00",
+   "PrecioMN": "S/.1.210,72",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "ASUS",
+   "Modelo": "ASUS TUF GTX 1660 SUPER OC GAMING 6GB GDDR6",
+   "PrecioME": "$329,00",
+   "PrecioMN": "S/.1.210,72",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "ASUS",
+   "Modelo": "ASUS ROG STRIX GEFORCE GTX 1660 SUPER 6GB ADVANCED EDITION",
+   "PrecioME": "$359,00",
+   "PrecioMN": "S/.1.321,12",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "ZOTAC",
+   "Modelo": "TARJETA DE VIDEO ZOTAC GTX 1660 SUPER 6GB GDDR6",
+   "PrecioME": "$360,00",
+   "PrecioMN": "S/.1.324,80",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "MSI",
+   "Modelo": "T. VIDEO MSI GEFORCE GTX 1660 SUPER GAMING X 6GB GDDR6",
+   "PrecioME": "$389,00",
+   "PrecioMN": "S/.1.431,52",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "EVGA",
+   "Modelo": "EVGA EVGA GEFORCE RTX 2060 SC ULTRA 6GB GAMING",
+   "PrecioME": "$459,00",
+   "PrecioMN": "S/.1.689,12",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "GIGABYTE",
+   "Modelo": "AORUS GEFORCE RTX 2060 XTREME 6GB GDDR6",
+   "PrecioME": "$519,00",
+   "PrecioMN": "S/.1.909,92",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "ZOTAC",
+   "Modelo": "ZOTAC GAMING GEFORCE RTX 2060 SUPER MINI8GB GDDR6",
+   "PrecioME": "$547,00",
+   "PrecioMN": "S/.2.012,96",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "PNY",
+   "Modelo": "PNY GEFORCE RTX 2060 SUPER 8GB OC GDDR6",
+   "PrecioME": "$548,00",
+   "PrecioMN": "S/.2.016,64",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "MSI",
+   "Modelo": "MSI GEFORCE RTX 2060 SUPER 8GB GDDR6 VENTUS OC",
+   "PrecioME": "$549,00",
+   "PrecioMN": "S/.2.020,32",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "ZOTAC",
+   "Modelo": "T. VIDEO ZOTAC GAMING GEFORCE RTX 2070 SUPER MINI",
+   "PrecioME": "$649,00",
+   "PrecioMN": "S/.2.388,32",
+   "Almacen": "NUEVO INGRESO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "GALAX",
+   "Modelo": "GALAX GEFORCE RTX 2070 SUPER 8GB GDDR6 EX",
+   "PrecioME": "$689,00",
+   "PrecioMN": "S/.2.535,52",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "ASUS",
+   "Modelo": "ASUS GEFORCE RTX 3070 KO 8GB GAMING GDDR6",
+   "PrecioME": "$699,00",
+   "PrecioMN": "S/.2.572,32",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "MSI",
+   "Modelo": "MSI NVIDIA RTX 3070 VENTUS 2X OC 8GB GDDR6",
+   "PrecioME": "$699,00",
+   "PrecioMN": "S/.2.572,32",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "ZOTAC",
+   "Modelo": "ZOTAC GAMING GEFORCE RTX 3070 Twin Edge OC",
+   "PrecioME": "$729,00",
+   "PrecioMN": "S/.2.682,72",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "MSI",
+   "Modelo": "MSI RTX 3060TI VENTUS 3X OC 8GB GDDR6",
+   "PrecioME": "$749,00",
+   "PrecioMN": "S/.2.756,32",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "GALAX",
+   "Modelo": "GALAX GEFORCE RTX 3070 8GB GDDR6 SG (1-CLICK OC) 256 BIT | LED- RGB",
+   "PrecioME": "$779,00",
+   "PrecioMN": "S/.2.866,72",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "ASUS",
+   "Modelo": "ASUS TUF RTX 3070 8GB GDRR6",
+   "PrecioME": "$899,00",
+   "PrecioMN": "S/.3.308,32",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "MSI",
+   "Modelo": "MSI RTX 3070 GAMING TRIO 8GB GDDR6",
+   "PrecioME": "$899,00",
+   "PrecioMN": "S/.3.308,32",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "MSI",
+   "Modelo": "MSI RTX 3070 VENTUS 3X OC GDDR6 8GB GDDR6",
+   "PrecioME": "$899,00",
+   "PrecioMN": "S/.3.308,32",
+   "Almacen": "NUEVO INGRESO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "GALAX",
+   "Modelo": "TARJTA VIDEO GALAX GEFORCE RTX 3080 SG (1 CLICK OC) 10GB GDDR6X 320 BITS",
+   "PrecioME": "$989,00",
+   "PrecioMN": "S/.3.639,52",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "ZOTAC",
+   "Modelo": "ZOTAC GAMING GeForce RTX 3080 Trinity",
+   "PrecioME": "$989,00",
+   "PrecioMN": "S/.3.639,52",
+   "Almacen": "CONSULTAR STOCK"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "ZOTAC",
+   "Modelo": "ZOTAC GAMING GeForce RTX 3080 Trinity OC",
+   "PrecioME": "$1.090,00",
+   "PrecioMN": "S/.4.011,20",
+   "Almacen": "CONSULTAR STOCK"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "MSI",
+   "Modelo": "TARJETA VIDEO PCI EXP. MSI GEFORCE RTX 3080 VENTUS 3X 10GB OC GDDR6X",
+   "PrecioME": "$1.099,00",
+   "PrecioMN": "S/.4.044,32",
+   "Almacen": "CONSULTAR STOCK"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "ASUS",
+   "Modelo": "ASUS NVIDIA TUF GAMING RTX 3080 10GB GDDR6X",
+   "PrecioME": "$1.149,00",
+   "PrecioMN": "S/.4.228,32",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "GIGABYTE",
+   "Modelo": "GIGABYTE GEFORCE RTX 3080 10GB GV-N3080GAMING OC-10GD GDDR6X",
+   "PrecioME": "$1.150,00",
+   "PrecioMN": "S/.4.232,00",
+   "Almacen": "CONSULTAR STOCK"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "MSI",
+   "Modelo": "MSI GeForce RTX 3080 GAMING X TRIO 10GB GDDR6X",
+   "PrecioME": "$1.249,00",
+   "PrecioMN": "S/.4.596,32",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "MSI",
+   "Modelo": "MSI RTX 3080 10GB GDDR6X OC",
+   "PrecioME": "$1.249,00",
+   "PrecioMN": "S/.4.596,32",
+   "Almacen": "CONSULTAR STOCK"
+ },
+ {
+   "Categoria": "Nvidia",
+   "Raza": "EVGA",
+   "Modelo": "EVGA GEFORCE RTX 3080 10GB GDDR6X FTW3 ULTRA GAMING VIDEO ARGB LED METAL BACKPLATE",
+   "PrecioME": "$1.290,00",
+   "PrecioMN": "S/.4.747,20",
+   "Almacen": "CONSULTAR STOCK"
+ },
+ {
+   "Categoria": "AMD",
+   "Raza": "SAPPHIRE",
+   "Modelo": "SAPPHIRE PULSE RADEON RX 550 4GB 128 BIT | GDDR5",
+   "PrecioME": "$109,00",
+   "PrecioMN": "S/.401,12",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "AMD",
+   "Raza": "VIEWMAX",
+   "Modelo": "VIEWMAX ENIGMAX RX 570 4GB",
+   "PrecioME": "$159,00",
+   "PrecioMN": "S/.585,12",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "AMD",
+   "Raza": "VIEWMAX",
+   "Modelo": "VIEWMAX ENIGMAX RX 570 8GB",
+   "PrecioME": "$195,00",
+   "PrecioMN": "S/.717,60",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "AMD",
+   "Raza": "ASROCK",
+   "Modelo": "ASROCK PHANTOM GAMING D RADEON RX 570 4G",
+   "PrecioME": "$198,00",
+   "PrecioMN": "S/.728,64",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "AMD",
+   "Raza": "ASUS",
+   "Modelo": "Tarjeta de video Gigabyte Radeon RX 570, 4GB, 256-bits",
+   "PrecioME": "$234,00",
+   "PrecioMN": "S/.861,12",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "AMD",
+   "Raza": "ASROCK",
+   "Modelo": "ASROCK PHANTOM GAMING D RADEON RX 570 8G",
+   "PrecioME": "$238,00",
+   "PrecioMN": "S/.875,84",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "AMD",
+   "Raza": "SAPPHIRE",
+   "Modelo": "TARJ. VIDEO SAPPHIRE RADEON RX 570 8GB GDDR5 PULSE 256 BIT",
+   "PrecioME": "$239,00",
+   "PrecioMN": "S/.879,52",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "AMD",
+   "Raza": "SAPPHIRE",
+   "Modelo": "TARJ. VIDEO SAPPHIRE RADEON RX 5500 XT 4GB GDDR6 PULSE | 128 BIT",
+   "PrecioME": "$239,00",
+   "PrecioMN": "S/.879,52",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "AMD",
+   "Raza": "ASROCK",
+   "Modelo": "ASROCK RADEON RX 5500 XT 8GB GDDR6 CHALLENGER D 8G OC | 128 BIT",
+   "PrecioME": "$249,00",
+   "PrecioMN": "S/.916,32",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "AMD",
+   "Raza": "GIGABYTE",
+   "Modelo": "T. VIDEO GIGABYTE RADEON RX 5500 XT 4GB GDDR6",
+   "PrecioME": "$259,00",
+   "PrecioMN": "S/.953,12",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "AMD",
+   "Raza": "ASUS",
+   "Modelo": "Tarjeta de video ASUS ROG Strix AMD Radeon RX570 OC edition 8GB GDDR5 256-bit",
+   "PrecioME": "$269,00",
+   "PrecioMN": "S/.989,92",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "AMD",
+   "Raza": "GIGABYTE",
+   "Modelo": "GIGABYTE AMD RADEON RX 580 GAMING 8GB GDDR5",
+   "PrecioME": "$289,00",
+   "PrecioMN": "S/.1.063,52",
+   "Almacen": "DISPONIBLE"
+ },
+ {
+   "Categoria": "AMD",
+   "Raza": "ASUS",
+   "Modelo": "ASUS AMD ROG STRIX RX 5500XT GAMING 8GB GDDR6",
+   "PrecioME": "$298,00",
+   "PrecioMN": "S/.1.096,64",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "AMD",
+   "Raza": "ASUS",
+   "Modelo": "TARJETA VIDEO AMD RADEON RX 5500XT 8GB ASUS ROG STRIX GAMING",
+   "PrecioME": "$329,00",
+   "PrecioMN": "S/.1.210,72",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "AMD",
+   "Raza": "MSI",
+   "Modelo": "ASUS RADEON RX 5600XT ASUS DUAL EVO",
+   "PrecioME": "$389,00",
+   "PrecioMN": "S/.1.431,52",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "AMD",
+   "Raza": "ASROCK",
+   "Modelo": "TARJETA VIDEO RADEON RX 5600XT CHALLENGER D 6GB OC GDDR6",
+   "PrecioME": "$398,00",
+   "PrecioMN": "S/.1.464,64",
+   "Almacen": "NUEVO INGRESO"
+ },
+ {
+   "Categoria": "AMD",
+   "Raza": "ASUS",
+   "Modelo": "MSI RADEON RX 5600 XT MGAMING MX 6GB",
+   "PrecioME": "$399,00",
+   "PrecioMN": "S/.1.468,32",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "AMD",
+   "Raza": "GIGABYTE",
+   "Modelo": "TARJ. VIDEO XFX RX 5600 XT THICC II PRO 6GB GDDR6 DUAL FAN",
+   "PrecioME": "$412,00",
+   "PrecioMN": "S/.1.516,16",
+   "Almacen": "AGOTADO"
+ },
+ {
+   "Categoria": "AMD",
+   "Raza": "XFX",
+   "Modelo": "GIGABYTE RADEON RX 5600 XT WINDFORCE OC, 6GB GDDR6",
+   "PrecioME": "$439,00",
+   "PrecioMN": "S/.1.615,52",
+   "Almacen": "CONSULTAR STOCK"
+ }
+]
