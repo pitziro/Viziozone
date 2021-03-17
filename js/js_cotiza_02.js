@@ -37,8 +37,9 @@ if (document.body.contains(document.getElementById('limpiar_storage'))) {
 // ----------------------------------------------------------------------------
 var procesadores
 var preciocpu
+var marcacpu
 
-$('#selectproce').ready(function () {
+$('#selectproce').ready( function () {
     $.ajax({
         url: 'https://pitziro.github.io/Viziozone/myJSON/procesador.json',
         dataType: 'json',
@@ -56,27 +57,18 @@ $('#selectproce').ready(function () {
             procesadores = jsonProces;
         }
     })
-})
+ });
 
 
-$('#selectproce').change(function() {
-    var valorActual = this.value
-    var index = procesadores.findIndex(function(item, i) {
-        return item.Modelo === valorActual
-    })
-
-    $('#selectproce').css('color','black')
-    $('#precioCPU').text(procesadores[index].PrecioMN)
-    preciocpu = Number((procesadores[index].PrecioMN).toString().replace(/[^0-9,-]+/g,"").replace(",","."))
-});
 
 
 // carga del JSON MoBo 
 // ----------------------------------------------------------------------------
 var mobos
 var preciomobo
+var marcamobo
 
-$('#selectMobo').ready(function () {
+function cargaMobo() {
     $.ajax({
         url: 'https://pitziro.github.io/Viziozone/myJSON/mobo.json',
         dataType: 'json',
@@ -94,19 +86,11 @@ $('#selectMobo').ready(function () {
             mobos = jsonMobos;
         }
     })
-})
+}
 
 
-$('#selectMobo').change(function() {
-    var valorActual = this.value
-    var index = mobos.findIndex(function(item, i) {
-        return item.Modelo === valorActual
-    })
+$('#selectMobo').ready( cargaMobo() );
 
-    $('#selectMobo').css('color','black')
-    $('#precioMobo').text(mobos[index].PrecioMN)
-    preciomobo = Number((mobos[index].PrecioMN).toString().replace(/[^0-9,-]+/g,"").replace(",","."))
-});
 
 
 // carga del JSON RAM 
@@ -133,18 +117,6 @@ $('#selectRam').ready(function () {
         }
     })
 })
-
-
-$('#selectRam').change(function() {
-    var valorActual = this.value
-    var index = rams.findIndex(function(item, i) {
-        return item.Modelo === valorActual
-    })
-
-    $('#selectRam').css('color','black')
-    $('#precioRam').text(rams[index].PrecioMN)
-    precioram = Number((rams[index].PrecioMN).toString().replace(/[^0-9,-]+/g,"").replace(",","."))
-});
 
 
 
@@ -174,13 +146,90 @@ $('#selectGpu').ready(function () {
 })
 
 
+
+
+// Dinamicas 
+// ----------------------------------------------------------------------------
+
+// CAMBIO PROCE
+$('#selectproce').change(function() {
+    var valorActual = this.value
+    var index = procesadores.findIndex(function(item, i) {
+        return item.Modelo === valorActual
+    })
+
+    $('#selectproce').css('color','black')
+    $('#precioCPU').text(procesadores[index].PrecioMN)
+    preciocpu = Number((procesadores[index].PrecioMN).toString().replace(/[^0-9,-]+/g,"").replace(",","."))
+    marcacpu = procesadores[index].Raza 
+
+    $('#selectMobo')[0].selectedIndex = 0;
+    $('#precioMobo').text('')
+
+    
+    //Limpiar opciones 
+    //$("#selectMobo").empty(); 
+    var poblarMobo = document.getElementById('selectMobo');
+    
+    var j, 
+        L = poblarMobo.options.length - 1;
+    
+    for(j = L; j > 0; j--) {
+        poblarMobo.remove(j);
+    }
+
+
+    
+    // volver a poblar con la compatibilidad
+    let argProce = new RegExp('('+ marcacpu +')')
+    for (var i = 0; i < mobos.length; i++) {
+        if (mobos[i].Categoria.toUpperCase().match(argProce)) {
+            var opt = mobos[i].Modelo
+            var el = document.createElement("option");
+            el.textContent = opt;
+            el.value = opt;
+            poblarMobo.appendChild(el);
+        }  
+    }
+});
+
+
+// Cambio Mobo
+$('#selectMobo').change(function() {
+    var valorActual = this.value
+    var index = mobos.findIndex(function(item, i) {
+        return item.Modelo === valorActual
+    })
+
+    $('#selectMobo').css('color','black')
+    $('#precioMobo').text(mobos[index].PrecioMN)
+    preciomobo = Number((mobos[index].PrecioMN).toString().replace(/[^0-9,-]+/g,"").replace(",","."))
+    marcamobo = mobos[index].Categoria 
+});
+
+
+
+// Cambio RAM
+$('#selectRam').change(function() {
+    var valorActual = this.value
+    var index = rams.findIndex(function(item, i) {
+        return item.Modelo === valorActual
+    })
+
+    $('#selectRam').css('color','black')
+    $('#precioRam').text(rams[index].PrecioMN)
+    precioram = Number((rams[index].PrecioMN).toString().replace(/[^0-9,-]+/g,"").replace(",","."))
+});
+
+
+// Cambio GPU 
 $('#selectGpu').change(function() {
     var valorActual = this.value
     var index = graficas.findIndex(function(item, i) {
         return item.Modelo === valorActual
     })
 
-    $('#selectGpu   ').css('color','black')
+    $('#selectGpu').css('color','black')
     $('#precioGpu').text(graficas[index].PrecioMN)
     preciogpu = Number((graficas[index].PrecioMN).toString().replace(/[^0-9,-]+/g,"").replace(",","."))
 });
@@ -188,7 +237,33 @@ $('#selectGpu').change(function() {
 
 
 
+// Limpiar la cotizacion
+// ----------------------------------------------------------------------------
+function LimpiarCoti() {
+    $('#selectproce')[0].selectedIndex = 0;
+    $('#precioCPU').text('');
+    preciocpu = 'ND';
+
+    cargaMobo();
+    $('#selectMobo')[0].selectedIndex = 0;
+    $('#precioMobo').text('');
+    preciomobo = 'ND';
+
+    $('#selectRam')[0].selectedIndex = 0;
+    $('#precioRam').text('');
+    precioram = 'ND';
+
+    $('#selectGpu')[0].selectedIndex = 0;
+    $('#precioGpu').text('');
+    preciogpu = 'ND';
+}
+
+
+
+
+
 // Guardo el JSON con los datos
+// ----------------------------------------------------------------------------
 function RegistroCot() {
     
     let costo_total = preciogpu + preciocpu + precioram + preciomobo
